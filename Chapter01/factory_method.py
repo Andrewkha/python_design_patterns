@@ -17,7 +17,7 @@ class JSONDataExtractor:
 class XMLDataExtractor:
 
     def __init__(self, filepath):
-        self.tree =  etree.parse(filepath)
+        self.tree = etree.parse(filepath)
 
     @property
     def parsed_data(self):
